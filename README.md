@@ -15,8 +15,6 @@ The bot accepts a product photo and runs it through a fully automated AI pipelin
 3. **Prompt generation** — `google/gemini-3-flash-preview` analyzes the product and writes a detailed Flux prompt
 4. **Image generation** — ComfyUI runs the Flux Klein 9B workflow and returns the result
 
-![Workflow](images/case-bot-workflow.jpg)
-
 ### Modes
 
 | Mode | Description |
@@ -50,6 +48,8 @@ Results are sent as a high-quality document file (JPEG, up to 2K resolution).
 - `RunPod` — cloud GPU deployment
 
 ![Pipeline](images/case-bot-pipline.jpg)
+
+![Workflow](images/case-bot-workflow.jpg)
 
 ---
 
