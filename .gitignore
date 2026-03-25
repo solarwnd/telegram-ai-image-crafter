@@ -1,0 +1,24 @@
+# Давай без секретов
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Модели и временные файлы бота
+downloads/
+outputs/
+*.pt
+*.safetensors
+*.ckpt
+*.zip
+
+# IDE
+.vscode/
+.idea/

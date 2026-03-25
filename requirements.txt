@@ -1,0 +1,4 @@
+aiogram>=3.4.0
+aiohttp
+python-dotenv
+Pillow
